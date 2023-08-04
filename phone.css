@@ -1,0 +1,169 @@
+/* Navigation */
+html{
+  scroll-behavior: smooth;
+}
+#navbar {
+  flex-direction: column;
+  top: -16px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+.logo img {
+    margin: 3px 6px;
+    height: 50px;
+    width: 57px;}
+
+/* Home section */
+.home {
+  height: 370px;
+}
+
+.home::before {
+  height: 480px;
+}
+#hungry,
+#getfood {
+  font-size: 11px;
+}
+
+#searchbox {
+  font-size: 5px;
+  text-align: center;
+  height: 20px;
+  width: 134px;
+  padding: 3px;
+  border-radius: 6px;
+  border: none;
+}
+#heading1{
+    font-size: 2.8rem;
+    margin: 9px;
+    
+}
+#heading2{
+    font-size: 1.8rem;
+    padding: 7px;
+}
+#btn {
+  text-align: center;
+  height: 14px;
+  width: 62px;
+  padding: 2px 19px;
+  margin: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 7px;
+  color: red;
+  background-color: white;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Services section */
+#services {
+  flex-direction: column;
+}
+.box{
+    width: 75%;
+}
+#heading3,
+#heading4,
+#heading5 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+#con-ser-1,
+#con-ser-2,
+#con-ser-3 {
+  font-size: 13px;
+  padding: 7px;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+#service1 img,
+#service3 img,
+#service2 img {
+  position: relative;
+  left: 55px;
+  height: 69px;
+  width: 69px;
+  opacity: 0.9;
+}
+
+
+/* Clients section */
+.clients {
+  overflow: hidden;
+}
+
+.ourclients{
+    height: 182px;
+}
+#clientservice-heading{
+    font-size: 1.3rem;
+}
+
+#client1 img{
+    position: relative;
+    left: -4px;
+    height: 50px;
+    width: 80px;
+    padding: 18px 15px;
+  }
+  #client2 img,#client3 img{
+    position: relative;
+    top: 8px;
+    left: -18px;
+    height: 40px;
+    width: 40px;
+    padding: 15px;
+  }
+  #client4 img{
+    position: relative;
+    top: 8px;
+    left: -8px;
+    height: 40px;
+    width: 40px;
+    padding: 15px;
+  }
+  #client5 img{
+    position: relative;
+    top: 18px;
+    left: -10px;
+    height: 25px;
+    width: 50px;
+    padding: 15px;
+  }
+/* Contact us section */
+
+.contact-heading{
+    font-size: 24px;
+    padding: 16px;
+}
+
+.name-form , .phone-num , .email,.msg {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding: 2px;
+    
+  }
+  #contact-box input,#contact-box textarea{
+    padding: 2px;
+    width: 85%;}
+#formbtn{
+    height: 30px;
+    align-items: center;
+    font-size: 10px;
+}
+input#formbtn{
+    width: 55%;
+   position: relative;
+   left: 42px;
+}
+
+/* Footer */
+footer{
+    font-size: 11px;
+    padding: 5px 5px;
+}
